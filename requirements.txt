@@ -1,0 +1,13 @@
+# Основные пакеты
+fastapi
+uvicorn  # ASGI-сервер для запуска FastAPI
+
+# Работа с данными и БД
+sqlalchemy
+psycopg2-binary  # Драйвер PostgreSQL
+pydantic
+pydantic-settings  # Для работы с конфигами
+
+# Дополнительно (опционально)
+alembic  # Для миграций БД
+python-dotenv # Для загрузки .env
